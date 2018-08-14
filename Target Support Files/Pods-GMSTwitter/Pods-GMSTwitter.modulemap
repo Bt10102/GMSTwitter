@@ -1,0 +1,6 @@
+framework module Pods_GMSTwitter {
+  umbrella header "Pods-GMSTwitter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D95CB06C590A387C1843E289F63815F /* BAVPlistNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7217408C795073F1FF5AAFF00F8F4D84 /* BAVPlistNode.m */; };
+		0FBE8AD77E64ED98B1C74667C97B6AE6 /* NSString+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = F49247AE3296BEA6B7FC625D7582741A /* NSString+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1106631B7B0D4CACA16CC8E221248652 /* Pods-GMSTwitter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 238D4DD7901750924B0B86CC098C5DC3 /* Pods-GMSTwitter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1ABC576828C0D5E32D91EE30531B2CAF /* STTwitterStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD651EC1DC1D067D9E3AD2B00E1875FA /* STTwitterStreamParser.m */; };
+		1DF0DEB77D26401892D4E76463DD3949 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF6C6BA564921A76D224B4328D9760 /* IQPreviousNextView.swift */; };
+		1E66A4899FC855FC61F13721CF63EB35 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8CAEAA54E6F85F74EAD13F6E408F37 /* IQKeyboardReturnKeyHandler.swift */; };
+		247B67CEB1B5671A1C0A896CB5FEE65B /* NSError+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = D3839AAB0296121A18C284AF1683C08F /* NSError+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2554FAF77512749A9A82D87DB144F1AE /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A30C4C3F22D9F7D80F9754D06B7DFC /* ReachabilitySwift-dummy.m */; };
+		25995DB2977B0D2B65457A8C14ACDF9F /* STTwitterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9212FCBB6FF8DB4B07E8BD50914F1AEB /* STTwitterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3A8A2B48D9AF31D7B448984788453A /* UIKit.framework */; };
+		2A2FE216328BFC23AF9D30EAEFAA2303 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 92FCC635F74E7152B85229659BA8D0AD /* IQKeyboardManager.bundle */; };
+		30B8FD913CEE9684348947759124BEDE /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA28EF8C5F82F4841F991CB4BD44657A /* Twitter.framework */; };
+		3285188513F859E100A7BBE29B36599D /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B304A92A270A82AB2AA240BBF306D013 /* IQUIView+IQKeyboardToolbar.swift */; };
+		33855D04B7AB89B0DF35CC480E2DF601 /* STTwitterHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3019E579F23508F7866889802D233 /* STTwitterHTML.m */; };
+		34C808B927B60EDE888730050D631CF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */; };
+		34F2BA47D096D0ED2B9A04226EE979E3 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4F22EBAEEE361E5EE24D440DEC9F66 /* STHTTPRequest.m */; };
+		3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */; };
+		3D77B7DC6449E6CC41C0FF73714B6BE9 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FF74EF7F18A9944D59D50C505EF512 /* IQNSArray+Sort.swift */; };
+		3EDA7575644614ACD562D23759D18DE8 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAC34AE1CD0ECDF11B62AB4C4CB2E0 /* IQUIView+Hierarchy.swift */; };
+		3F45A01290D4577DE7A486D15AFCA79D /* STTwitter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BE2A1BE03842BA396597F2B839E1B9 /* STTwitter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FA1ED98CFC3601BBFECA1D24FE68CCE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBA80967D011ACFE8FE147B15462523 /* Reachability.swift */; };
+		47FF1DB48A15D8C92E699071DBDBEFBB /* STTwitterAppOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B36966F5431A00E7AD74524C764FDC5 /* STTwitterAppOnly.m */; };
+		4B0F9347718263C67557054C2E15DE61 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5713E15F7966B10DB7D617FDC5F79B /* IQTextView.swift */; };
+		4D1CBD17E26EB05280BC1867D04D0E76 /* JSONSyntaxHighlight.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE2C7AD9825832C9166B149C8EC9252 /* JSONSyntaxHighlight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D2BEDD3FAA57CA1409C2B3CF2C06003 /* STTwitterOSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1971065C35200699542633BB25D97C /* STTwitterOSRequest.m */; };
+		4F8EF24D34C3DCBB1E4043FDE0FFE901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */; };
+		5083C9AE1AEE3A4A50E1670DE87D3616 /* STTwitterHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DE8559FFEE9DCE29313655297864A4 /* STTwitterHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F428563662528F888887529E0AD826 /* STHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2580438C896FF8638F925A8DA9BE92E0 /* STHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611E15EF5330ADB63246D8076AB9BBF /* QuartzCore.framework */; };
+		5939499A16FC0C349C94A634D25C4EE7 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD840F7EC74C1E6FE88D003B025730E6 /* IQUIScrollView+Additions.swift */; };
+		598527A1D24BD6C0C9F741E8F84DFE17 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E3127E9090EF3E940011366A9ED966 /* IQKeyboardManagerConstants.swift */; };
+		59F0CC6AE128BE6A6EEF90DA7D8D4506 /* STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E428B220B3CC30B9A5814A688BCC49 /* STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A5ED30BC43B5D4B5D340D00F9C620FC /* NSString+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6C4F7AB7252BDB319AAB7B92C9A9BD /* NSString+STTwitter.m */; };
+		5C4C968B7D8547A1327D0CACB3DCB745 /* NSDateFormatter+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5DC81B415D34F78515FE5F688E233C /* NSDateFormatter+STTwitter.m */; };
+		5F31C928DB57976DAD94C489DA851FE1 /* JSONSyntaxHighlight.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D4DFBD6917E95A564F36A3EB6520DD /* JSONSyntaxHighlight.m */; };
+		64F354609DA76AD80DD40850DB763562 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DFBCEEADA92953FE1FC7F6F5FC76C61 /* IQKeyboardManagerSwift-dummy.m */; };
+		6C71A5D171D02ADF17F39E1BC39F5A42 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 217F4430ED769087A403C891A8CC9CF9 /* Accounts.framework */; };
+		757C981536E50924338822A8305FBECD /* STTwitterOS.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B753DE8093F678F652BCE17ABAB683 /* STTwitterOS.m */; };
+		75EA48614B850469826A7A6DBEF2CAE5 /* STTwitterAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFD18C89F39C4D0C6A5C21E054DF0E6 /* STTwitterAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7604CE35B1B0865D9178AD7384D0BB4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1815BABEDFEC31FCF842B8E0F747C4 /* CoreGraphics.framework */; };
+		761466AB63495AE53BB712ADB85CEDFF /* STTwitterOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F71A053FBB3E0E36B9ABA2F259AC67E8 /* STTwitterOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B4AE80876F8FA7C8F4654B6D157B47 /* NSError+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FF1467C68D778A16897F741D3A16EF /* NSError+STTwitter.m */; };
+		7EFC39054EFD2AA343A0D27E32A956B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */; };
+		7FE321828ECA1D78CCF8A2892A30438B /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AC534A2A35CD35092594E8055930A /* IQUIViewController+Additions.swift */; };
+		83B0E4A33786C45550CBAA86DD9E400B /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3137532C3E94B1BBFB6317BD3179705 /* IQToolbar.swift */; };
+		846A14D529A5A8D213E938DD92916979 /* STTwitterAppOnly.h in Headers */ = {isa = PBXBuildFile; fileRef = C388C9920B728811E200D95315093957 /* STTwitterAppOnly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877E0A55C779FC5AC85A6332713A141C /* STTwitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D86D42014A3F2DAED3CC221BF37DA42 /* STTwitter-dummy.m */; };
+		87AD9D97F0F94C85720FC018235CD8A9 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BA86CC62C58DB31B3DBFF1E1A687CB /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88CAB7120FD9F06EDBACAFC7A6F2BB6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3A8A2B48D9AF31D7B448984788453A /* UIKit.framework */; };
+		8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1815BABEDFEC31FCF842B8E0F747C4 /* CoreGraphics.framework */; };
+		8C7101983B8FB07FA8D6202B68C679B3 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1641B56632C889B295EA9F7878E4396F /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F491F1285BDE9F45973F9FE0792B6CE /* STTwitterOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE8286B4187C350B6386BDAB263E5DE /* STTwitterOAuth.m */; };
+		973129FA91EE4F19578A2E31AF553B84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B611E15EF5330ADB63246D8076AB9BBF /* QuartzCore.framework */; };
+		9C86D40EE53FCB74DAA60F7474A314D4 /* STTwitterOSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3478EA605F4E54EF7950AC0213DC4E6A /* STTwitterOSRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A374FB615F6BF671C654D79265103BF0 /* STHTTPRequest+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE5327237C84746EAE22F728FAA219D /* STHTTPRequest+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A688A048A288B1385AAFAD2C1EDBBF /* STHTTPRequest+STTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3ED469B321A43370E47986B0EDDB21 /* STHTTPRequest+STTwitter.m */; };
+		ADEBD392995A4F3010209C3574708FF8 /* NSDateFormatter+STTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 853A0F71703AEABE97D177C377DFD0EF /* NSDateFormatter+STTwitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC8617FF82E04E2E8104815A1A6F684 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C03A3D3F9C0AEFA411CF5A6A290A3942 /* SystemConfiguration.framework */; };
+		BB4FCDEB31262E21F9021F22B2A73FAC /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259D6B831F46119D6C2A71F5E905AE49 /* IQTitleBarButtonItem.swift */; };
+		CE6BAE070E573E1FABA820360F22737B /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F202F2006499A02D4177E5144AAE8DF1 /* IQBarButtonItem.swift */; };
+		D454487F13CADE121E11E2861D4DDD5B /* STTwitterOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1A62BE28BDCB6F70A4D8B043467F90 /* STTwitterOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8CB9FF88157BD94FEC7E7229E881C46 /* Pods-GMSTwitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 047742583C86F679F6CAEF61A851D9C3 /* Pods-GMSTwitter-dummy.m */; };
+		DC1732F3A036EA505A79240E1F7CCF3C /* STTwitterStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 021DE076032FFB2180C6B4A54C6978E3 /* STTwitterStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1892F605D93810A9FBE0902043EB8AF /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6201C2215367B54C4C0D03C5D1A8187 /* IQKeyboardManager.swift */; };
+		E1E729DD19EDA12DF13E1A4CF6D748C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41E37CD19157323D9D093A0DF25CBA5 /* IQKeyboardManagerConstantsInternal.swift */; };
+		E8F5CC4714C4AB1D6FE8FC85651DF3A3 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01492842BF29A2E35BDFAA4AC131C95 /* IQInvocation.swift */; };
+		EEC5EE727FA2DF9D913B4E2A48B57DAD /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A13E33E78B826304360D22E4BCC50A /* IQUITextFieldView+Additions.swift */; };
+		F19FDF0A08EFA364B8B1B4F4A569C2A2 /* STTwitterAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2162982EA25F99AFE674CED44E943408 /* STTwitterAPI.m */; };
+		F6FC035F723CA471E61B9D11E6291F25 /* BAVPlistNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B1FFF6B5852CE2DB4DFF2752CDE15F /* BAVPlistNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F77CFD3FB78242E2038F91589390547A /* STTwitterRequestProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DC05F8CA5062D5EFC441E9565CF7B0A2 /* STTwitterRequestProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		173B4FE69A679586D8149BF85AF54C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C235F77E101E742652CCF98FFDFA5182;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		A5342DFEF518D94D100F5527A59FDC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D6EEDDD4CB3444AB47C2E469C6654FD;
+			remoteInfo = ReachabilitySwift;
+		};
+		FBB1FA6B5561E7623E978FE239F6DDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 700F8A8225EE821B561757F90EA7E5B6;
+			remoteInfo = STTwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A3019E579F23508F7866889802D233 /* STTwitterHTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterHTML.m; path = STTwitter/STTwitterHTML.m; sourceTree = "<group>"; };
+		00DAC34AE1CD0ECDF11B62AB4C4CB2E0 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		021DE076032FFB2180C6B4A54C6978E3 /* STTwitterStreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterStreamParser.h; path = STTwitter/STTwitterStreamParser.h; sourceTree = "<group>"; };
+		047742583C86F679F6CAEF61A851D9C3 /* Pods-GMSTwitter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GMSTwitter-dummy.m"; sourceTree = "<group>"; };
+		08D00AA9B9F190D79290A1ADD1C02186 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		092141BA646DC675BC569E981C681AAA /* STTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STTwitter.framework; path = STTwitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FF74EF7F18A9944D59D50C505EF512 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		11086DEC10B2399E863B27FED8B7D3C0 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		1641B56632C889B295EA9F7878E4396F /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		1B36966F5431A00E7AD74524C764FDC5 /* STTwitterAppOnly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterAppOnly.m; path = STTwitter/STTwitterAppOnly.m; sourceTree = "<group>"; };
+		2162982EA25F99AFE674CED44E943408 /* STTwitterAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterAPI.m; path = STTwitter/STTwitterAPI.m; sourceTree = "<group>"; };
+		217F4430ED769087A403C891A8CC9CF9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		238D4DD7901750924B0B86CC098C5DC3 /* Pods-GMSTwitter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GMSTwitter-umbrella.h"; sourceTree = "<group>"; };
+		23A30C4C3F22D9F7D80F9754D06B7DFC /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		2496550C3CD1631ABB085D5B2CEE242C /* STTwitter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = STTwitter.modulemap; sourceTree = "<group>"; };
+		2580438C896FF8638F925A8DA9BE92E0 /* STHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STHTTPRequest.h; path = STTwitter/Vendor/STHTTPRequest.h; sourceTree = "<group>"; };
+		259D6B831F46119D6C2A71F5E905AE49 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		29FF6C6BA564921A76D224B4328D9760 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		2B1971065C35200699542633BB25D97C /* STTwitterOSRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterOSRequest.m; path = STTwitter/STTwitterOSRequest.m; sourceTree = "<group>"; };
+		2D3ED469B321A43370E47986B0EDDB21 /* STHTTPRequest+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "STHTTPRequest+STTwitter.m"; path = "STTwitter/STHTTPRequest+STTwitter.m"; sourceTree = "<group>"; };
+		2DFBCEEADA92953FE1FC7F6F5FC76C61 /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		2E599334D3CFA50423E3A381F949CB1A /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F6C4F7AB7252BDB319AAB7B92C9A9BD /* NSString+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+STTwitter.m"; path = "STTwitter/NSString+STTwitter.m"; sourceTree = "<group>"; };
+		30184BB7290D810F13E344158D7C6451 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F6E1B5E25B7D72041937E0FBBD09AD /* Pods-GMSTwitter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMSTwitter.release.xcconfig"; sourceTree = "<group>"; };
+		3478EA605F4E54EF7950AC0213DC4E6A /* STTwitterOSRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterOSRequest.h; path = STTwitter/STTwitterOSRequest.h; sourceTree = "<group>"; };
+		3DAC24D5538190B64E93F581F26EA5F5 /* Pods-GMSTwitter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GMSTwitter.modulemap"; sourceTree = "<group>"; };
+		46E428B220B3CC30B9A5814A688BCC49 /* STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitter.h; path = STTwitter/STTwitter.h; sourceTree = "<group>"; };
+		47BE2A1BE03842BA396597F2B839E1B9 /* STTwitter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTwitter-umbrella.h"; sourceTree = "<group>"; };
+		47BFBDA5ECA5CF9C115AEB807B1A8E9F /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		4AB20E67007A808BCA4AB3828D1138FD /* Pods-GMSTwitter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSTwitter-resources.sh"; sourceTree = "<group>"; };
+		4B3A8A2B48D9AF31D7B448984788453A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4BE8286B4187C350B6386BDAB263E5DE /* STTwitterOAuth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterOAuth.m; path = STTwitter/STTwitterOAuth.m; sourceTree = "<group>"; };
+		4F1A62BE28BDCB6F70A4D8B043467F90 /* STTwitterOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterOAuth.h; path = STTwitter/STTwitterOAuth.h; sourceTree = "<group>"; };
+		5A5713E15F7966B10DB7D617FDC5F79B /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		5C077DB9DE6A34C6CFC8B33021C084ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D86D42014A3F2DAED3CC221BF37DA42 /* STTwitter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STTwitter-dummy.m"; sourceTree = "<group>"; };
+		65E3127E9090EF3E940011366A9ED966 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		6DFF47F07E20C4D250629C5495C7D96C /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		7217408C795073F1FF5AAFF00F8F4D84 /* BAVPlistNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAVPlistNode.m; path = STTwitter/Vendor/BAVPlistNode.m; sourceTree = "<group>"; };
+		765BD46C86261D4652B72052D75A44BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A740FC424201F449327CE9140355076 /* STTwitter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STTwitter-prefix.pch"; sourceTree = "<group>"; };
+		849A5590CED2DD31CCCF7525520C0E27 /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		853A0F71703AEABE97D177C377DFD0EF /* NSDateFormatter+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+STTwitter.h"; path = "STTwitter/NSDateFormatter+STTwitter.h"; sourceTree = "<group>"; };
+		86D4DFBD6917E95A564F36A3EB6520DD /* JSONSyntaxHighlight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONSyntaxHighlight.m; path = STTwitter/Vendor/JSONSyntaxHighlight.m; sourceTree = "<group>"; };
+		87B1FFF6B5852CE2DB4DFF2752CDE15F /* BAVPlistNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAVPlistNode.h; path = STTwitter/Vendor/BAVPlistNode.h; sourceTree = "<group>"; };
+		8BBA80967D011ACFE8FE147B15462523 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		8CF67C4C02476630B8743F17383E7BE9 /* Pods-GMSTwitter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GMSTwitter-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DB2E2E7DBFD579D1BC8F82BCC60311B /* STTwitter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STTwitter.xcconfig; sourceTree = "<group>"; };
+		8DE2C7AD9825832C9166B149C8EC9252 /* JSONSyntaxHighlight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONSyntaxHighlight.h; path = STTwitter/Vendor/JSONSyntaxHighlight.h; sourceTree = "<group>"; };
+		9212FCBB6FF8DB4B07E8BD50914F1AEB /* STTwitterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterProtocol.h; path = STTwitter/STTwitterProtocol.h; sourceTree = "<group>"; };
+		92FCC635F74E7152B85229659BA8D0AD /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93DE8559FFEE9DCE29313655297864A4 /* STTwitterHTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterHTML.h; path = STTwitter/STTwitterHTML.h; sourceTree = "<group>"; };
+		9C6B247FCB5D234E5F3350F7A0737AAF /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2B753DE8093F678F652BCE17ABAB683 /* STTwitterOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterOS.m; path = STTwitter/STTwitterOS.m; sourceTree = "<group>"; };
+		AB1815BABEDFEC31FCF842B8E0F747C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AC4F22EBAEEE361E5EE24D440DEC9F66 /* STHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STHTTPRequest.m; path = STTwitter/Vendor/STHTTPRequest.m; sourceTree = "<group>"; };
+		ACFC40F6D747F98FBAFF8135FCBA91E4 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		B0E1A5E1D2B265817C62AAD0DCE7C9F3 /* Pods-GMSTwitter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GMSTwitter-frameworks.sh"; sourceTree = "<group>"; };
+		B23AC534A2A35CD35092594E8055930A /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		B304A92A270A82AB2AA240BBF306D013 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		B611E15EF5330ADB63246D8076AB9BBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B8A51154C968217EC2E93F0127ABADD7 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		BA28EF8C5F82F4841F991CB4BD44657A /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
+		BD651EC1DC1D067D9E3AD2B00E1875FA /* STTwitterStreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STTwitterStreamParser.m; path = STTwitter/STTwitterStreamParser.m; sourceTree = "<group>"; };
+		C03A3D3F9C0AEFA411CF5A6A290A3942 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		C14F18AAE3A83280845C5DD159DFA97E /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		C388C9920B728811E200D95315093957 /* STTwitterAppOnly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterAppOnly.h; path = STTwitter/STTwitterAppOnly.h; sourceTree = "<group>"; };
+		C41E37CD19157323D9D093A0DF25CBA5 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		C4BA86CC62C58DB31B3DBFF1E1A687CB /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		C4F7CBB1EC313BA9461F62C7508CA041 /* Pods-GMSTwitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GMSTwitter.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8CAEAA54E6F85F74EAD13F6E408F37 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		CD1530F72ACA4D1E79DB31D8BEA17AD4 /* Pods-GMSTwitter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GMSTwitter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD840F7EC74C1E6FE88D003B025730E6 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		CF2D3FFF733C4AC2BA95F8DD6507F511 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00B49BF2444F5838C5C1EBDDD080E70 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
+		D3137532C3E94B1BBFB6317BD3179705 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		D3839AAB0296121A18C284AF1683C08F /* NSError+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+STTwitter.h"; path = "STTwitter/NSError+STTwitter.h"; sourceTree = "<group>"; };
+		D5D7899FD53A2B53C4B371B5764CF42D /* Pods_GMSTwitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GMSTwitter.framework; path = "Pods-GMSTwitter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC05F8CA5062D5EFC441E9565CF7B0A2 /* STTwitterRequestProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterRequestProtocol.h; path = STTwitter/STTwitterRequestProtocol.h; sourceTree = "<group>"; };
+		DEFD18C89F39C4D0C6A5C21E054DF0E6 /* STTwitterAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterAPI.h; path = STTwitter/STTwitterAPI.h; sourceTree = "<group>"; };
+		E110B56956ADDFC26B53D410471B5483 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		E1A13E33E78B826304360D22E4BCC50A /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		EE5DC81B415D34F78515FE5F688E233C /* NSDateFormatter+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+STTwitter.m"; path = "STTwitter/NSDateFormatter+STTwitter.m"; sourceTree = "<group>"; };
+		F01492842BF29A2E35BDFAA4AC131C95 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		F0FF1467C68D778A16897F741D3A16EF /* NSError+STTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+STTwitter.m"; path = "STTwitter/NSError+STTwitter.m"; sourceTree = "<group>"; };
+		F202F2006499A02D4177E5144AAE8DF1 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		F49247AE3296BEA6B7FC625D7582741A /* NSString+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+STTwitter.h"; path = "STTwitter/NSString+STTwitter.h"; sourceTree = "<group>"; };
+		F6201C2215367B54C4C0D03C5D1A8187 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		F71A053FBB3E0E36B9ABA2F259AC67E8 /* STTwitterOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STTwitterOS.h; path = STTwitter/STTwitterOS.h; sourceTree = "<group>"; };
+		FB5D689DC02F5B9C12CB7E3523BD3F47 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		FDE5327237C84746EAE22F728FAA219D /* STHTTPRequest+STTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "STHTTPRequest+STTwitter.h"; path = "STTwitter/STHTTPRequest+STTwitter.h"; sourceTree = "<group>"; };
+		FDF4CF3E4C3F41A8E7C28DD0CACA1393 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81A5C814ACEB86CB06CD6C51383982FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C24D10078B6686E6A81E92E81EED4D8 /* CoreGraphics.framework in Frameworks */,
+				3D1474C367C73546A9258C4A1BFC9293 /* Foundation.framework in Frameworks */,
+				53E0A72846668C4BDCBAEF9C879987ED /* QuartzCore.framework in Frameworks */,
+				25A195CFCA17BD56D98B207C3F709513 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833662A7AB5F242A4166EC95F0F63C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C808B927B60EDE888730050D631CF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE0C71C902E4CE6C45E2B7499742D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C71A5D171D02ADF17F39E1BC39F5A42 /* Accounts.framework in Frameworks */,
+				7604CE35B1B0865D9178AD7384D0BB4E /* CoreGraphics.framework in Frameworks */,
+				4F8EF24D34C3DCBB1E4043FDE0FFE901 /* Foundation.framework in Frameworks */,
+				973129FA91EE4F19578A2E31AF553B84 /* QuartzCore.framework in Frameworks */,
+				30B8FD913CEE9684348947759124BEDE /* Twitter.framework in Frameworks */,
+				88CAB7120FD9F06EDBACAFC7A6F2BB6E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6F5B5CE6DDAF67F7FD4FC0F98B39EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFC39054EFD2AA343A0D27E32A956B3 /* Foundation.framework in Frameworks */,
+				BAC8617FF82E04E2E8104815A1A6F684 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06220E93C7D983D328C0863141E9A453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E599334D3CFA50423E3A381F949CB1A /* IQKeyboardManagerSwift.framework */,
+				D5D7899FD53A2B53C4B371B5764CF42D /* Pods_GMSTwitter.framework */,
+				9C6B247FCB5D234E5F3350F7A0737AAF /* Reachability.framework */,
+				092141BA646DC675BC569E981C681AAA /* STTwitter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1573A3CC6C0AB44D04C4CA2B633EA582 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F202F2006499A02D4177E5144AAE8DF1 /* IQBarButtonItem.swift */,
+				F01492842BF29A2E35BDFAA4AC131C95 /* IQInvocation.swift */,
+				F6201C2215367B54C4C0D03C5D1A8187 /* IQKeyboardManager.swift */,
+				65E3127E9090EF3E940011366A9ED966 /* IQKeyboardManagerConstants.swift */,
+				C41E37CD19157323D9D093A0DF25CBA5 /* IQKeyboardManagerConstantsInternal.swift */,
+				CA8CAEAA54E6F85F74EAD13F6E408F37 /* IQKeyboardReturnKeyHandler.swift */,
+				10FF74EF7F18A9944D59D50C505EF512 /* IQNSArray+Sort.swift */,
+				29FF6C6BA564921A76D224B4328D9760 /* IQPreviousNextView.swift */,
+				5A5713E15F7966B10DB7D617FDC5F79B /* IQTextView.swift */,
+				259D6B831F46119D6C2A71F5E905AE49 /* IQTitleBarButtonItem.swift */,
+				D3137532C3E94B1BBFB6317BD3179705 /* IQToolbar.swift */,
+				CD840F7EC74C1E6FE88D003B025730E6 /* IQUIScrollView+Additions.swift */,
+				E1A13E33E78B826304360D22E4BCC50A /* IQUITextFieldView+Additions.swift */,
+				00DAC34AE1CD0ECDF11B62AB4C4CB2E0 /* IQUIView+Hierarchy.swift */,
+				B304A92A270A82AB2AA240BBF306D013 /* IQUIView+IQKeyboardToolbar.swift */,
+				B23AC534A2A35CD35092594E8055930A /* IQUIViewController+Additions.swift */,
+				1A820470635E5747C20BB4ADFC27D1E5 /* Resources */,
+				664D3EF789A30F6EA2653A92B21ADCC8 /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		18ECCA7367AF3570D2A19F2757A6DFE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47CFB4324012457AD3BEB87AB5B6136 /* GoogleMaps */,
+				61F43E19F9FB03F655586F26FEB00BB4 /* GooglePlaces */,
+				1573A3CC6C0AB44D04C4CA2B633EA582 /* IQKeyboardManagerSwift */,
+				E0AF0F95246CA2143EF53793D33CA69A /* ReachabilitySwift */,
+				5D0CF2EC5E1F27F8917CBD3065B341E9 /* STTwitter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A820470635E5747C20BB4ADFC27D1E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92FCC635F74E7152B85229659BA8D0AD /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		383282CEB6A4736835515DC6E80D41FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFC40F6D747F98FBAFF8135FCBA91E4 /* GoogleMaps.framework */,
+				E110B56956ADDFC26B53D410471B5483 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A8D1FF981C04F93DEE7E4637C55447E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D689DC02F5B9C12CB7E3523BD3F47 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47162E7F83D0C1D45D9B87EAAF0E2BFD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82F21513981117EB2352D3BEADCAFD23 /* Pods-GMSTwitter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		510D9F0551C0CFC343B7A7A1DD85F9CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF2D3FFF733C4AC2BA95F8DD6507F511 /* Info.plist */,
+				2496550C3CD1631ABB085D5B2CEE242C /* STTwitter.modulemap */,
+				8DB2E2E7DBFD579D1BC8F82BCC60311B /* STTwitter.xcconfig */,
+				5D86D42014A3F2DAED3CC221BF37DA42 /* STTwitter-dummy.m */,
+				7A740FC424201F449327CE9140355076 /* STTwitter-prefix.pch */,
+				47BE2A1BE03842BA396597F2B839E1B9 /* STTwitter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STTwitter";
+			sourceTree = "<group>";
+		};
+		5D0CF2EC5E1F27F8917CBD3065B341E9 /* STTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				87B1FFF6B5852CE2DB4DFF2752CDE15F /* BAVPlistNode.h */,
+				7217408C795073F1FF5AAFF00F8F4D84 /* BAVPlistNode.m */,
+				8DE2C7AD9825832C9166B149C8EC9252 /* JSONSyntaxHighlight.h */,
+				86D4DFBD6917E95A564F36A3EB6520DD /* JSONSyntaxHighlight.m */,
+				853A0F71703AEABE97D177C377DFD0EF /* NSDateFormatter+STTwitter.h */,
+				EE5DC81B415D34F78515FE5F688E233C /* NSDateFormatter+STTwitter.m */,
+				D3839AAB0296121A18C284AF1683C08F /* NSError+STTwitter.h */,
+				F0FF1467C68D778A16897F741D3A16EF /* NSError+STTwitter.m */,
+				F49247AE3296BEA6B7FC625D7582741A /* NSString+STTwitter.h */,
+				2F6C4F7AB7252BDB319AAB7B92C9A9BD /* NSString+STTwitter.m */,
+				2580438C896FF8638F925A8DA9BE92E0 /* STHTTPRequest.h */,
+				AC4F22EBAEEE361E5EE24D440DEC9F66 /* STHTTPRequest.m */,
+				FDE5327237C84746EAE22F728FAA219D /* STHTTPRequest+STTwitter.h */,
+				2D3ED469B321A43370E47986B0EDDB21 /* STHTTPRequest+STTwitter.m */,
+				46E428B220B3CC30B9A5814A688BCC49 /* STTwitter.h */,
+				DEFD18C89F39C4D0C6A5C21E054DF0E6 /* STTwitterAPI.h */,
+				2162982EA25F99AFE674CED44E943408 /* STTwitterAPI.m */,
+				C388C9920B728811E200D95315093957 /* STTwitterAppOnly.h */,
+				1B36966F5431A00E7AD74524C764FDC5 /* STTwitterAppOnly.m */,
+				93DE8559FFEE9DCE29313655297864A4 /* STTwitterHTML.h */,
+				00A3019E579F23508F7866889802D233 /* STTwitterHTML.m */,
+				4F1A62BE28BDCB6F70A4D8B043467F90 /* STTwitterOAuth.h */,
+				4BE8286B4187C350B6386BDAB263E5DE /* STTwitterOAuth.m */,
+				F71A053FBB3E0E36B9ABA2F259AC67E8 /* STTwitterOS.h */,
+				A2B753DE8093F678F652BCE17ABAB683 /* STTwitterOS.m */,
+				3478EA605F4E54EF7950AC0213DC4E6A /* STTwitterOSRequest.h */,
+				2B1971065C35200699542633BB25D97C /* STTwitterOSRequest.m */,
+				9212FCBB6FF8DB4B07E8BD50914F1AEB /* STTwitterProtocol.h */,
+				DC05F8CA5062D5EFC441E9565CF7B0A2 /* STTwitterRequestProtocol.h */,
+				021DE076032FFB2180C6B4A54C6978E3 /* STTwitterStreamParser.h */,
+				BD651EC1DC1D067D9E3AD2B00E1875FA /* STTwitterStreamParser.m */,
+				510D9F0551C0CFC343B7A7A1DD85F9CF /* Support Files */,
+			);
+			name = STTwitter;
+			path = STTwitter;
+			sourceTree = "<group>";
+		};
+		61F43E19F9FB03F655586F26FEB00BB4 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				CB50792B454638B78EB8004D5B932679 /* Frameworks */,
+				3A8D1FF981C04F93DEE7E4637C55447E /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		664D3EF789A30F6EA2653A92B21ADCC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C077DB9DE6A34C6CFC8B33021C084ED /* Info.plist */,
+				11086DEC10B2399E863B27FED8B7D3C0 /* IQKeyboardManagerSwift.modulemap */,
+				D00B49BF2444F5838C5C1EBDDD080E70 /* IQKeyboardManagerSwift.xcconfig */,
+				2DFBCEEADA92953FE1FC7F6F5FC76C61 /* IQKeyboardManagerSwift-dummy.m */,
+				849A5590CED2DD31CCCF7525520C0E27 /* IQKeyboardManagerSwift-prefix.pch */,
+				C4BA86CC62C58DB31B3DBFF1E1A687CB /* IQKeyboardManagerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				18ECCA7367AF3570D2A19F2757A6DFE2 /* Pods */,
+				06220E93C7D983D328C0863141E9A453 /* Products */,
+				47162E7F83D0C1D45D9B87EAAF0E2BFD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82F21513981117EB2352D3BEADCAFD23 /* Pods-GMSTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				30184BB7290D810F13E344158D7C6451 /* Info.plist */,
+				3DAC24D5538190B64E93F581F26EA5F5 /* Pods-GMSTwitter.modulemap */,
+				CD1530F72ACA4D1E79DB31D8BEA17AD4 /* Pods-GMSTwitter-acknowledgements.markdown */,
+				8CF67C4C02476630B8743F17383E7BE9 /* Pods-GMSTwitter-acknowledgements.plist */,
+				047742583C86F679F6CAEF61A851D9C3 /* Pods-GMSTwitter-dummy.m */,
+				B0E1A5E1D2B265817C62AAD0DCE7C9F3 /* Pods-GMSTwitter-frameworks.sh */,
+				4AB20E67007A808BCA4AB3828D1138FD /* Pods-GMSTwitter-resources.sh */,
+				238D4DD7901750924B0B86CC098C5DC3 /* Pods-GMSTwitter-umbrella.h */,
+				C4F7CBB1EC313BA9461F62C7508CA041 /* Pods-GMSTwitter.debug.xcconfig */,
+				32F6E1B5E25B7D72041937E0FBBD09AD /* Pods-GMSTwitter.release.xcconfig */,
+			);
+			name = "Pods-GMSTwitter";
+			path = "Target Support Files/Pods-GMSTwitter";
+			sourceTree = "<group>";
+		};
+		99722896488036507E60E2699D93354F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				765BD46C86261D4652B72052D75A44BE /* Info.plist */,
+				B8A51154C968217EC2E93F0127ABADD7 /* ReachabilitySwift.modulemap */,
+				C14F18AAE3A83280845C5DD159DFA97E /* ReachabilitySwift.xcconfig */,
+				23A30C4C3F22D9F7D80F9754D06B7DFC /* ReachabilitySwift-dummy.m */,
+				FDF4CF3E4C3F41A8E7C28DD0CACA1393 /* ReachabilitySwift-prefix.pch */,
+				1641B56632C889B295EA9F7878E4396F /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		9E154F001A404B3273739CAAB4CD4B67 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C6A91BB042DD3593F899639204F84F0B /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AF6FD6ED2DA66D5EFCAE23CB933CD217 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				217F4430ED769087A403C891A8CC9CF9 /* Accounts.framework */,
+				AB1815BABEDFEC31FCF842B8E0F747C4 /* CoreGraphics.framework */,
+				FE3A43AA85C940312AE64C154F0BC20B /* Foundation.framework */,
+				B611E15EF5330ADB63246D8076AB9BBF /* QuartzCore.framework */,
+				C03A3D3F9C0AEFA411CF5A6A290A3942 /* SystemConfiguration.framework */,
+				BA28EF8C5F82F4841F991CB4BD44657A /* Twitter.framework */,
+				4B3A8A2B48D9AF31D7B448984788453A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B47CFB4324012457AD3BEB87AB5B6136 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				9E154F001A404B3273739CAAB4CD4B67 /* Base */,
+				F1FAC2B355F1966D4AEEE49BDB98C341 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		C6A91BB042DD3593F899639204F84F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DFF47F07E20C4D250629C5495C7D96C /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB50792B454638B78EB8004D5B932679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47BFBDA5ECA5CF9C115AEB807B1A8E9F /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AF0F95246CA2143EF53793D33CA69A /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				8BBA80967D011ACFE8FE147B15462523 /* Reachability.swift */,
+				99722896488036507E60E2699D93354F /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		F1FAC2B355F1966D4AEEE49BDB98C341 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				383282CEB6A4736835515DC6E80D41FB /* Frameworks */,
+				FB59ECDCA3FF063B3C29D02AC7A00958 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF6FD6ED2DA66D5EFCAE23CB933CD217 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB59ECDCA3FF063B3C29D02AC7A00958 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08D00AA9B9F190D79290A1ADD1C02186 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BBD499D66309ACFC1DD14DCED7F4B2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FC035F723CA471E61B9D11E6291F25 /* BAVPlistNode.h in Headers */,
+				4D1CBD17E26EB05280BC1867D04D0E76 /* JSONSyntaxHighlight.h in Headers */,
+				ADEBD392995A4F3010209C3574708FF8 /* NSDateFormatter+STTwitter.h in Headers */,
+				247B67CEB1B5671A1C0A896CB5FEE65B /* NSError+STTwitter.h in Headers */,
+				0FBE8AD77E64ED98B1C74667C97B6AE6 /* NSString+STTwitter.h in Headers */,
+				A374FB615F6BF671C654D79265103BF0 /* STHTTPRequest+STTwitter.h in Headers */,
+				52F428563662528F888887529E0AD826 /* STHTTPRequest.h in Headers */,
+				3F45A01290D4577DE7A486D15AFCA79D /* STTwitter-umbrella.h in Headers */,
+				59F0CC6AE128BE6A6EEF90DA7D8D4506 /* STTwitter.h in Headers */,
+				75EA48614B850469826A7A6DBEF2CAE5 /* STTwitterAPI.h in Headers */,
+				846A14D529A5A8D213E938DD92916979 /* STTwitterAppOnly.h in Headers */,
+				5083C9AE1AEE3A4A50E1670DE87D3616 /* STTwitterHTML.h in Headers */,
+				D454487F13CADE121E11E2861D4DDD5B /* STTwitterOAuth.h in Headers */,
+				761466AB63495AE53BB712ADB85CEDFF /* STTwitterOS.h in Headers */,
+				9C86D40EE53FCB74DAA60F7474A314D4 /* STTwitterOSRequest.h in Headers */,
+				25995DB2977B0D2B65457A8C14ACDF9F /* STTwitterProtocol.h in Headers */,
+				F77CFD3FB78242E2038F91589390547A /* STTwitterRequestProtocol.h in Headers */,
+				DC1732F3A036EA505A79240E1F7CCF3C /* STTwitterStreamParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D2771BCD5306E031F62240186514B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1106631B7B0D4CACA16CC8E221248652 /* Pods-GMSTwitter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82B5F04767CB991E84734A54D0ABA5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87AD9D97F0F94C85720FC018235CD8A9 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E077F8F99F61F020E4419D7C2C5C8BB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7101983B8FB07FA8D6202B68C679B3 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		700F8A8225EE821B561757F90EA7E5B6 /* STTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F329F8C1797C02DA369369C0746600 /* Build configuration list for PBXNativeTarget "STTwitter" */;
+			buildPhases = (
+				2F94E30D948F2DC363240709488A4257 /* Sources */,
+				9AE0C71C902E4CE6C45E2B7499742D1B /* Frameworks */,
+				0BBD499D66309ACFC1DD14DCED7F4B2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STTwitter;
+			productName = STTwitter;
+			productReference = 092141BA646DC675BC569E981C681AAA /* STTwitter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D6EEDDD4CB3444AB47C2E469C6654FD /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9556AEFFCA9FDE704B301F5C6A7F0A72 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				7146A970758A34A72709606532C7DC30 /* Sources */,
+				9F6F5B5CE6DDAF67F7FD4FC0F98B39EC /* Frameworks */,
+				E077F8F99F61F020E4419D7C2C5C8BB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 9C6B247FCB5D234E5F3350F7A0737AAF /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C22E1560A24395645CF71F3983F95536 /* Pods-GMSTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62928EDEE90CBE7DAB09AA073442F053 /* Build configuration list for PBXNativeTarget "Pods-GMSTwitter" */;
+			buildPhases = (
+				5CF376506673F610007631590AE9D94E /* Sources */,
+				833662A7AB5F242A4166EC95F0F63C9F /* Frameworks */,
+				A7D2771BCD5306E031F62240186514B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C010F284241DBBDCEA7EDC8E4B2C6064 /* PBXTargetDependency */,
+				3E040AFF53D67B6877A1A6612116294D /* PBXTargetDependency */,
+				59A70B5000A9C635A143B72727CF83B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GMSTwitter";
+			productName = "Pods-GMSTwitter";
+			productReference = D5D7899FD53A2B53C4B371B5764CF42D /* Pods_GMSTwitter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8C5CE05A712EF50BB123A41D8EFC0CB /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				6AE8A1A8C31E2BAC9BF0840594A72CEB /* Sources */,
+				81A5C814ACEB86CB06CD6C51383982FE /* Frameworks */,
+				918D58E08AC7FD6CC66B75FF048005F7 /* Resources */,
+				C82B5F04767CB991E84734A54D0ABA5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 2E599334D3CFA50423E3A381F949CB1A /* IQKeyboardManagerSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 06220E93C7D983D328C0863141E9A453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */,
+				C22E1560A24395645CF71F3983F95536 /* Pods-GMSTwitter */,
+				8D6EEDDD4CB3444AB47C2E469C6654FD /* ReachabilitySwift */,
+				700F8A8225EE821B561757F90EA7E5B6 /* STTwitter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918D58E08AC7FD6CC66B75FF048005F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2FE216328BFC23AF9D30EAEFAA2303 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F94E30D948F2DC363240709488A4257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D95CB06C590A387C1843E289F63815F /* BAVPlistNode.m in Sources */,
+				5F31C928DB57976DAD94C489DA851FE1 /* JSONSyntaxHighlight.m in Sources */,
+				5C4C968B7D8547A1327D0CACB3DCB745 /* NSDateFormatter+STTwitter.m in Sources */,
+				79B4AE80876F8FA7C8F4654B6D157B47 /* NSError+STTwitter.m in Sources */,
+				5A5ED30BC43B5D4B5D340D00F9C620FC /* NSString+STTwitter.m in Sources */,
+				A7A688A048A288B1385AAFAD2C1EDBBF /* STHTTPRequest+STTwitter.m in Sources */,
+				34F2BA47D096D0ED2B9A04226EE979E3 /* STHTTPRequest.m in Sources */,
+				877E0A55C779FC5AC85A6332713A141C /* STTwitter-dummy.m in Sources */,
+				F19FDF0A08EFA364B8B1B4F4A569C2A2 /* STTwitterAPI.m in Sources */,
+				47FF1DB48A15D8C92E699071DBDBEFBB /* STTwitterAppOnly.m in Sources */,
+				33855D04B7AB89B0DF35CC480E2DF601 /* STTwitterHTML.m in Sources */,
+				8F491F1285BDE9F45973F9FE0792B6CE /* STTwitterOAuth.m in Sources */,
+				757C981536E50924338822A8305FBECD /* STTwitterOS.m in Sources */,
+				4D2BEDD3FAA57CA1409C2B3CF2C06003 /* STTwitterOSRequest.m in Sources */,
+				1ABC576828C0D5E32D91EE30531B2CAF /* STTwitterStreamParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF376506673F610007631590AE9D94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CB9FF88157BD94FEC7E7229E881C46 /* Pods-GMSTwitter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE8A1A8C31E2BAC9BF0840594A72CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6BAE070E573E1FABA820360F22737B /* IQBarButtonItem.swift in Sources */,
+				E8F5CC4714C4AB1D6FE8FC85651DF3A3 /* IQInvocation.swift in Sources */,
+				E1892F605D93810A9FBE0902043EB8AF /* IQKeyboardManager.swift in Sources */,
+				598527A1D24BD6C0C9F741E8F84DFE17 /* IQKeyboardManagerConstants.swift in Sources */,
+				E1E729DD19EDA12DF13E1A4CF6D748C8 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				64F354609DA76AD80DD40850DB763562 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				1E66A4899FC855FC61F13721CF63EB35 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				3D77B7DC6449E6CC41C0FF73714B6BE9 /* IQNSArray+Sort.swift in Sources */,
+				1DF0DEB77D26401892D4E76463DD3949 /* IQPreviousNextView.swift in Sources */,
+				4B0F9347718263C67557054C2E15DE61 /* IQTextView.swift in Sources */,
+				BB4FCDEB31262E21F9021F22B2A73FAC /* IQTitleBarButtonItem.swift in Sources */,
+				83B0E4A33786C45550CBAA86DD9E400B /* IQToolbar.swift in Sources */,
+				5939499A16FC0C349C94A634D25C4EE7 /* IQUIScrollView+Additions.swift in Sources */,
+				EEC5EE727FA2DF9D913B4E2A48B57DAD /* IQUITextFieldView+Additions.swift in Sources */,
+				3EDA7575644614ACD562D23759D18DE8 /* IQUIView+Hierarchy.swift in Sources */,
+				3285188513F859E100A7BBE29B36599D /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				7FE321828ECA1D78CCF8A2892A30438B /* IQUIViewController+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7146A970758A34A72709606532C7DC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA1ED98CFC3601BBFECA1D24FE68CCE /* Reachability.swift in Sources */,
+				2554FAF77512749A9A82D87DB144F1AE /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E040AFF53D67B6877A1A6612116294D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 8D6EEDDD4CB3444AB47C2E469C6654FD /* ReachabilitySwift */;
+			targetProxy = A5342DFEF518D94D100F5527A59FDC5B /* PBXContainerItemProxy */;
+		};
+		59A70B5000A9C635A143B72727CF83B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STTwitter;
+			target = 700F8A8225EE821B561757F90EA7E5B6 /* STTwitter */;
+			targetProxy = FBB1FA6B5561E7623E978FE239F6DDF0 /* PBXContainerItemProxy */;
+		};
+		C010F284241DBBDCEA7EDC8E4B2C6064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = C235F77E101E742652CCF98FFDFA5182 /* IQKeyboardManagerSwift */;
+			targetProxy = 173B4FE69A679586D8149BF85AF54C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CE4FF07C35A7747FB2EE3741CE55A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F6E1B5E25B7D72041937E0FBBD09AD /* Pods-GMSTwitter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMSTwitter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMSTwitter/Pods-GMSTwitter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E70BD20B9491C5F2A03217D984F3B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00B49BF2444F5838C5C1EBDDD080E70 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		703082A85162812D3B777E668767AD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF21B561177AC5D48CD4E1CEE921B648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB2E2E7DBFD579D1BC8F82BCC60311B /* STTwitter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
+				PRODUCT_MODULE_NAME = STTwitter;
+				PRODUCT_NAME = STTwitter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3F365A79A75991CBCBCF49F488646E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00B49BF2444F5838C5C1EBDDD080E70 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0D587C3DB17A487A6D19A9DB92713B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14F18AAE3A83280845C5DD159DFA97E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4CF27D000BAFA0E62F394E018CE3CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F7CBB1EC313BA9461F62C7508CA041 /* Pods-GMSTwitter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GMSTwitter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GMSTwitter/Pods-GMSTwitter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6655683191791ECC7BECC28139DED32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14F18AAE3A83280845C5DD159DFA97E /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C1418736D7974EC0C8B327730C16FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB2E2E7DBFD579D1BC8F82BCC60311B /* STTwitter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/STTwitter/STTwitter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/STTwitter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/STTwitter/STTwitter.modulemap";
+				PRODUCT_MODULE_NAME = STTwitter;
+				PRODUCT_NAME = STTwitter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */,
+				703082A85162812D3B777E668767AD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F329F8C1797C02DA369369C0746600 /* Build configuration list for PBXNativeTarget "STTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF21B561177AC5D48CD4E1CEE921B648 /* Debug */,
+				E9C1418736D7974EC0C8B327730C16FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62928EDEE90CBE7DAB09AA073442F053 /* Build configuration list for PBXNativeTarget "Pods-GMSTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4CF27D000BAFA0E62F394E018CE3CCB /* Debug */,
+				2CE4FF07C35A7747FB2EE3741CE55A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9556AEFFCA9FDE704B301F5C6A7F0A72 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6655683191791ECC7BECC28139DED32 /* Debug */,
+				D0D587C3DB17A487A6D19A9DB92713B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8C5CE05A712EF50BB123A41D8EFC0CB /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E70BD20B9491C5F2A03217D984F3B82 /* Debug */,
+				B3F365A79A75991CBCBCF49F488646E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
